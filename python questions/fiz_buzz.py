@@ -1,0 +1,14 @@
+#leap year
+
+n= int(input())
+
+if n%4==0:
+    if n%100:
+        if n%400:
+            print("Leap year")
+        else:
+            print("Not a leap year")
+    else:
+        print("Leap year")
+else:
+    print("Not a Leap year")
